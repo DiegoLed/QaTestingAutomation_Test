@@ -1,0 +1,36 @@
+# Dependencias de Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Archivos específicos de Cypress
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Reportes (si usas mochawesome o allure localmente)
+cypress/reports/
+.allure/
+allure-results/
+allure-report/
+
+# Configuración local y variables de entorno (Datos Sensibles)
+.env
+.env.local
+.env.*.local
+cypress.env.json
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDEs y Editores de código
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

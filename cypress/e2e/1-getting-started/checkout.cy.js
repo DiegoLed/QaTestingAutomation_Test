@@ -1,7 +1,7 @@
 describe('Chekout - Sauce Demo', () => {
 
   beforeEach(() => {
-    cy.login(standard_user, secret_sauce)
+    cy.login("standard_user", "secret_sauce")
     cy.get('.app_logo').should('have.text','Swag Labs')
     cy.get('[data-test="shopping-cart-badge"]').should('not.exist')
     cy.get('[data-test="remove-sauce-labs-backpack"]').should('not.exist')

@@ -2,7 +2,7 @@ describe('SauceDemo - Carrito de compras', () => {
 
   beforeEach(() => {
     //Utilizo los comandos personalizados para evitar repetir código en cada test
-    cy.login(standard_user, secret_sauce)
+    cy.login("standard_user", "secret_sauce")
     })
     
     it('Agregar un producto al carrito', () => {

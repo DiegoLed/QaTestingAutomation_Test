@@ -2,7 +2,7 @@ describe('Inventario - Sauce Demo', () => {
 
     beforeEach(()=>{
         //Utilizo los comandos personalizados para evitar repetir código en cada test
-        cy.login('standard_user','secret_sauce')
+        cy.login("standard_user","secret_sauce")
     })
 
     it('Verificar cantidad de productos', () => {

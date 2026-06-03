@@ -48,7 +48,7 @@ describe ('Login Sauce Demo',()=>{
         // Hacer click en logout
         cy.get('#logout_sidebar_link').should('be.visible').click()
         // Verificar que se redirige a la página de login
-        cy.url().should('include','/index.html')
+        cy.url().should('include','www.saucedemo.com')
 
         // Al redirigirse al login, verificar que el formulario se haya reseteado
         cy.get('[data-test="login-button"]').should('be.visible')

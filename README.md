@@ -2,9 +2,6 @@
 QA Testing Automation web https://www.saucedemo.com/
 
 
-# Volviendo a generar y empaquetar el archivo README.md exacto como un recurso descargable listo para el usuario
-readme_final_content = """# QaTestingAutomation_Test
-
 Este repositorio contiene el framework de automatización de pruebas de extremo a extremo (E2E) desarrollado con **Cypress**. El objetivo principal del proyecto es validar los flujos críticos de la aplicación web, garantizando su estabilidad, rendimiento functional y regresión continua.
 
 ---
@@ -78,6 +75,8 @@ npm run test:all
 ## 📐 Arquitectura del Proyecto
 El suite está organizado bajo las mejores prácticas del patrón de diseño Page Object Model (POM). Esto separa la lógica de las pruebas de los selectores de la interfaz gráfica, asegurando un código limpio, mantenible y reutilizable:
 
+```
+
 QaTestingAutomation_Test/
 ├── cypress/
 │   ├── e2e/                  # Scripts de pruebas automatizadas (*.cy.js)
@@ -92,6 +91,8 @@ QaTestingAutomation_Test/
 ├── cypress.config.js         # Archivo central de configuración técnica de Cypress
 ├── package.json              # Metadatos, dependencias del motor y scripts bash de ejecución
 └── README.md                 # Documentación completa del framework
+
+```
 
 
 ## ✒️ Autor

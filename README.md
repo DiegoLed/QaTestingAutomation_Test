@@ -94,6 +94,9 @@ QaTestingAutomation_Test/
 
 ```
 
+## Soporte para seguimiento de los Bugs:
+#https://trello.com/b/vUOODe17/sauce-demo
+
 
 ## ✒️ Autor
 # Diego Ezequiel Ledesma - Automatización de Pruebas & QA Engineer - DiegoLed
